@@ -19,7 +19,20 @@ public class MathDemo1 {
         System.out.println(Math.ceil(12.34)); // 13.0
         System.out.println(Math.ceil(-13.4)); // 12.0
 
+        // floor
+        System.out.println(Math.floor(2.34)); //2.0
+        System.out.println(Math.floor(2.54)); //2.0
+        System.out.println(Math.floor(-12.34)); //-13.0
 
+        // max and min
+        System.out.println(Math.max(2,3)); // 3
+        System.out.println(Math.min(2,3)); // 2
+
+        // pow
+        // advise:
+        // Second parameter: generally passes a positive integer greater than or equal to 1
+        System.out.println(Math.pow(4,0.5));//2.0
+        System.out.println(Math.pow(2,-2)); //0.25
 
 
     }
